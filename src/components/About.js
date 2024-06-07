@@ -24,12 +24,12 @@ class About extends Component {
           LoggedIn User
           <UserContext.Consumer>
             {({ loggedInUser }) => (
-              <h1 className="text-xl font-bold">{loggedInUser}</h1>
+              <h1 className="text-xl font-bold">RIJO</h1>
             )}
           </UserContext.Consumer>
         </div>
         <h2>This is SWIGGY</h2>
-        <UserClass name={"First"} location={"Dehradun Class"} />
+        <UserClass  location={"Dehradun Class"} />
       </div>
     );
   }
